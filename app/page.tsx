@@ -14,7 +14,7 @@ export default function IndexPage() {
           No more no less
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          tailwind sheets is a collection of code snippets for your project, very similar to tailwind components, but with the difference that you can copy and paste the code you need, and customize it as you want.
+          {siteConfig.content.hero_description}
         </p>
       </div>
       <div className="flex gap-4">
